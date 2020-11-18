@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.5.1)
 project(AstroPhotoPlus-Desktop VERSION 0.1.0)
 
-include(cmake/SetProjectVersion.cmake)
-
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set (CMAKE_CXX_STANDARD 14)
 # Turn on automatic invocation of the MOC, UIC & RCC
